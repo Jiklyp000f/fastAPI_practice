@@ -21,3 +21,5 @@ async def add_task(
 async def get_tasks() -> list[STask]:
     tasks = await TaskRepository.find_all()
     return tasks
+
+
